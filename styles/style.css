@@ -1,0 +1,137 @@
+/* Extra small devices (phones, 600px and down) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .header-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .header-nav .nav-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: white;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+  }
+  .header-nav .nav-container .navbar-logo {
+    width: 150px;
+    height: 50px;
+  }
+  .header-nav .nav-container .navbar-logo img {
+    height: 36px;
+    padding: 0.5em 0.5em;
+    width: 130px;
+  }
+  .header-nav .navbar-menu {
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    position: fixed;
+    display: block !important;
+    background: transparent;
+    margin: 0;
+    left: 50%;
+    z-index: 1;
+    width: 768px;
+    padding: 1em 0;
+  }
+  .header-nav .navbar-menu .menu-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+  }
+  .header-nav .navbar-menu .menu-list li {
+    padding: 0 2em;
+    font-size: 15px;
+    font-weight: 550;
+    color: black;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+  .header-nav .navbar-icons {
+    position: fixed;
+    display: block !important;
+    background: transparent;
+    margin: 0;
+    left: 80%;
+    z-index: 1;
+    width: 768px;
+    padding: 0.5em 4.5em;
+  }
+  .header-nav .navbar-icons .donate-button {
+    background-color: #fc0;
+    border-color: #fc0;
+    width: 96px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+  .header-nav .navbar-icons .user {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .header-nav .navbar-icons .account {
+    padding: 0 1.5em;
+  }
+  .header-nav .navbar-icons .user li a {
+    padding: 0 1em;
+    color: black;
+    margin: 0;
+    padding: 0 1.3em;
+  }
+  .header-nav .navbar-icons .user li p {
+    margin: 0;
+    padding: 0;
+  }
+  .content-container {
+    margin-top: 4em;
+  }
+  .content-container .article-heading {
+    width: 100%;
+    height: 100%;
+    margin: 0 200px;
+  }
+  .content-container h5 {
+    font-weight: 600;
+    font-size: 0.8125em;
+    letter-spacing: .1625em;
+    line-height: 1rem;
+  }
+  .content-container h1 {
+    font-size: 3.75rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0.2em 0;
+    letter-spacing: 0.2em;
+  }
+  .content-container h2 {
+    color: #000;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    font-weight: 400;
+    font-family: "GeographEditWeb", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.01em;
+    word-spacing: .05em;
+    margin-top: 15px;
+    text-transform: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
