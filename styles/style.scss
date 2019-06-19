@@ -30,12 +30,12 @@
             .navbar-logo {
                 width: 150px;
                 height: 50px;
-            }
 
-            .navbar-logo img {
-                height: 36px;
-                padding: 0.5em 0.5em;
-                width: 130px;
+                img {
+                    height: 36px;
+                    padding: 0.5em 0.5em;
+                    width: 130px;
+                }
             }
         }
 
@@ -53,19 +53,20 @@
             .menu-list {
                 display: flex;
                 list-style: none;
+
+                li {
+                    padding: 0 2em;
+                    font-size: 15px;
+                    font-weight: 550;
+                    color: black;
+                    font-family: GeographWeb,
+                        Helvetica,
+                        Arial,
+                        sans-serif;
+                    letter-spacing: 2px;
+                }
             }
 
-            .menu-list li {
-                padding: 0 2em;
-                font-size: 15px;
-                font-weight: 550;
-                color: black;
-                font-family: GeographWeb,
-                    Helvetica,
-                    Arial,
-                    sans-serif;
-                letter-spacing: 2px;
-            }
         }
 
         .navbar-icons {
@@ -101,35 +102,33 @@
                 display: flex;
                 margin: 0;
                 padding: 0;
+
+                .account {
+                    padding: 0 1.5em;
+                }
+
+                a {
+                    padding: 0 1em;
+                    color: black;
+                    margin: 0;
+                    padding: 0 1.3em;
+                }
+
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
             }
-
-            .account {
-                padding: 0 1.5em;
-            }
-
-            .user li a {
-                padding: 0 1em;
-                color: black;
-                margin: 0;
-                padding: 0 1.3em;
-            }
-
-            .user li p {
-                margin: 0;
-                padding: 0;
-            }
-
-
         }
     }
 
     .content-container {
-        margin-top: 4em;
+        margin-top: 7em;
 
         .article-heading {
             width: 100%;
             height: 100%;
-            margin: 0 200px;
+            margin: 0 120px;
         }
 
         h5 {
@@ -137,6 +136,7 @@
             font-size: 0.8125em;
             letter-spacing: .1625em;
             line-height: 1rem;
+            font-family: sans-serif;
         }
 
         h1 {
@@ -144,7 +144,8 @@
             font-weight: 400;
             line-height: 1.2;
             margin: 0.2em 0;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.1em;
+            font-family: sans-serif;
         }
 
         h2 {
@@ -161,6 +162,34 @@
             margin-top: 15px;
             text-transform: none;
         }
+
+        .sharing-icons {
+
+            padding: 2em 0;
+
+            .article-sharing {
+                list-style: none;
+                display: flex;
+
+                li {
+                    padding-right: 1em;
+                }
+
+                .fa-twitter {
+                    color: #00d8ff;
+                }
+
+                .fa-facebook-square {
+                    color: #0079ff;
+                }
+
+                .fa-pinterest-p {
+                    color: red;
+                }
+            }
+        }
+
+
     }
 
 }
