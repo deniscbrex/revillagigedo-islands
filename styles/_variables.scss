@@ -2,8 +2,63 @@ $textFont: GeographWeb,
 Helvetica,
 Arial,
 sans-serif;
-$textSize: 1.25em;
+$textSize: 1em;
+$subTitleSize: 1.25em;
+$titleSize: 1.75em !important;
 $btnColor: #fc0;
 $twitterColor:#00d8ff;
 $facebookColor:#0079ff;
 $pinterestColor: red;
+
+@mixin h2-font {
+    margin-top: 2em;
+    font-family: $textFont;
+    font-size: $titleSize;
+    line-height: 1.5;
+    letter-spacing: .13em;
+    font-weight: 500;
+}
+
+@mixin h3-font {
+    color: #000;
+    font-size: $subTitleSize;
+    line-height: 1.8;
+    font-weight: 400;
+    font-family: $textFont;
+    letter-spacing: -0.01em;
+    word-spacing: .05em;
+    margin-top: 15px;
+    text-transform: none;
+}
+
+@mixin p-font {
+    margin-top: 1.5em;
+    font-family: $textFont;
+    font-size: $textSize
+}
+
+@mixin button {
+    background-color: $btnColor;
+    border-color: $btnColor;
+    width: 96px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    font-family: $textFont;
+    letter-spacing: 2px;
+}
+
+@mixin box-title {
+    font-size: $titleSize;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    padding-left: 35px;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.05em !important;
+    border-left: 2px solid black !important;
+    line-height: 2 !important;
+}
