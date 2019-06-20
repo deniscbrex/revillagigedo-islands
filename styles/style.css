@@ -153,6 +153,80 @@
   .content-container .sharing-icons .article-sharing .fa-pinterest-p {
     color: red;
   }
+  .content-container .text-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-container .text-content h2 {
+    margin-top: 2em;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    font-size: 1.75em;
+    line-height: 1.5;
+    letter-spacing: .13em;
+    font-weight: 500;
+  }
+  .content-container .text-content h3 {
+    color: #000;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    font-weight: 400;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.01em;
+    word-spacing: .05em;
+    margin-top: 15px;
+    text-transform: none;
+  }
+  .content-container .text-content p {
+    margin-top: 1.5em;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+  }
+  .content-container .text-content a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid #fc0;
+    text-decoration: none;
+  }
+  .content-container .text-content .text-3 {
+    padding-right: 1em;
+  }
+  .content-container .map-img {
+    margin: 27px;
+  }
+  .content-container .map-img img {
+    max-width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 3em;
+    padding: 0em 14em;
+  }
+  .content-container .map-img .bottom-text {
+    margin-left: 14em;
+    padding-top: 0.5em;
+  }
+  .content-container .map-img .bottom-text p {
+    border-left: 2px solid #999;
+    padding: 0 1.5em;
+    color: #999;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    font-size: 0.7em;
+  }
+  .content-container .line {
+    border: 0.5px solid #999;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
