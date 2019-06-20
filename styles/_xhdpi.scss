@@ -129,7 +129,7 @@
                 font-family: $textFont;
                 letter-spacing: -0.01em;
                 word-spacing: 0.05em;
-                margin-top: 15px;
+                margin: 1em;
                 text-transform: none;
             }
         }
@@ -189,6 +189,26 @@
             .text-3 {
                 padding-right: 1em;
             }
+
+            .grid-box {
+                display: flex;
+
+                img {
+                    width: 500px;
+                }
+
+                .news {
+                    border-left: 2px solid #999;
+                    padding: 0 1.5em;
+                    color: #999;
+                    font-family: $textFont;
+                    font-size: 0.7em;
+                }
+
+                .right-text {
+                    margin: 9em 1em;
+                }
+            }
         }
 
         .map-img {
@@ -242,6 +262,7 @@
                     @include p-font;
                 }
             }
+
         }
     }
 }
