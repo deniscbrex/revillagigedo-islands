@@ -34,7 +34,10 @@ $pinterestColor: red;
 @mixin p-font {
     margin-top: 1.5em;
     font-family: $textFont;
-    font-size: $textSize
+    font-size: $textSize;
+    font-weight: 400;
+    line-height: 1.7;
+    word-spacing: .05em;
 }
 
 @mixin button {

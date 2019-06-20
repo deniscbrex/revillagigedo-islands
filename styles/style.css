@@ -217,9 +217,12 @@
   }
 
   .content-container .text-content p {
-    margin-top: 1.5em;
+    margin: 1em;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     font-size: 1em;
+    font-weight: 400;
+    line-height: 1.7;
+    word-spacing: .05em;
   }
 
   .content-container .text-content a {
@@ -323,9 +326,12 @@
   }
 
   .content-container .box-container .text-container p {
-    margin-top: 1.5em;
+    margin: 1em;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     font-size: 1em;
+    font-weight: 400;
+    line-height: 1.7;
+    word-spacing: .05em;
   }
 }
 
