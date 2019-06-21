@@ -306,7 +306,8 @@
     word-spacing: .05em;
   }
   .content-container .more-box .more-list {
-    margin: 2em;
+    margin: 1em;
+    padding-right: 5em;
   }
   .content-container .more-box .more-list ul {
     list-style: none;
@@ -316,7 +317,7 @@
     margin: 1em;
   }
   .content-container .more-box .follow-list {
-    margin: 2em;
+    margin: 1em;
     padding: 0em;
   }
   .content-container .more-box .follow-list .share-items-1 {
@@ -329,7 +330,7 @@
             justify-content: center;
   }
   .content-container .more-box .follow-list .share-items-1 li {
-    margin: 1.5em;
+    margin: 1em;
   }
   .content-container .more-box .follow-list .share-items-1 li a {
     -webkit-box-sizing: border-box;
@@ -386,6 +387,9 @@
   }
   .content-container .more-box .follow-list .share-items-2 li a .fa-instagram {
     color: #3F729b;
+  }
+  footer {
+    background: #222;
   }
 }
 
