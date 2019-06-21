@@ -372,5 +372,57 @@
 
     footer {
         background: #222;
+
+        .footer-container {
+            display: flex;
+
+            .footer-logo {
+                padding: 3em;
+
+                img {
+                    height: 54px;
+                    width: 170px;
+                }
+
+                p {
+                    @include footer-font;
+                }
+            }
+
+            .footer-menu {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+
+                .menu-1 {
+                    padding-top: 2em;
+                    padding-right: 5em;
+                }
+
+                .menu-2 {
+                    padding-top: 2em;
+                    padding-right: 5em;
+                }
+
+                .menu-3 {
+                    padding-top: 2em;
+                    padding-right: 5em;
+                }
+
+                h6 {
+                    color: white
+                }
+
+                ul {
+                    padding: 1em;
+                }
+
+                li {
+                    color: white;
+                }
+            }
+        }
+
+
     }
 }
