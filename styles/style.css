@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
   }
-
   .header-nav {
     position: fixed;
     top: 0;
@@ -12,30 +11,26 @@
     left: 0;
     z-index: 1030;
   }
-
   .header-nav .nav-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     background: white;
     -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
   }
-
   .header-nav .nav-container .navbar-logo {
     width: 150px;
     height: 50px;
   }
-
   .header-nav .nav-container .navbar-logo img {
     height: 36px;
     padding: 0.5em 0.5em;
     width: 130px;
   }
-
   .header-nav .navbar-menu {
     -webkit-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
     position: fixed;
     display: block !important;
     background: transparent;
@@ -45,14 +40,12 @@
     width: 768px;
     padding: 1em 0;
   }
-
   .header-nav .navbar-menu .menu-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     list-style: none;
   }
-
   .header-nav .navbar-menu .menu-list li {
     padding: 0 2em;
     font-size: 15px;
@@ -61,7 +54,6 @@
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
   }
-
   .header-nav .navbar-icons {
     position: fixed;
     display: block !important;
@@ -72,7 +64,6 @@
     width: 768px;
     padding: 0.5em 4.5em;
   }
-
   .header-nav .navbar-icons .donate-button {
     background-color: #fc0;
     border-color: #fc0;
@@ -86,7 +77,6 @@
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
   }
-
   .header-nav .navbar-icons .user {
     list-style: none;
     display: -webkit-box;
@@ -95,33 +85,27 @@
     margin: 0;
     padding: 0;
   }
-
   .header-nav .navbar-icons .user .account {
     padding: 0 1.5em;
   }
-
   .header-nav .navbar-icons .user a {
     padding: 0 1em;
     color: black;
     margin: 0;
     padding: 0 1.3em;
   }
-
   .header-nav .navbar-icons .user p {
     margin: 0;
     padding: 0;
   }
-
   .content-container {
     margin-top: 7em;
   }
-
   .content-container .article-heading {
     width: 90%;
     height: 100%;
     margin: 0 120px;
   }
-
   .content-container .article-heading h5 {
     font-weight: 600;
     font-size: 0.8125em;
@@ -129,7 +113,6 @@
     line-height: 1rem;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
   }
-
   .content-container .article-heading h1 {
     font-size: 3.75em;
     font-weight: 400;
@@ -138,7 +121,6 @@
     letter-spacing: 0.1em;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
   }
-
   .content-container .article-heading h2 {
     color: #000;
     font-size: 1em;
@@ -150,60 +132,51 @@
     margin: 1em;
     text-transform: none;
   }
-
   .content-container .sharing-icons {
     padding: 2em 0;
   }
-
   .content-container .sharing-icons .article-sharing {
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .content-container .sharing-icons .article-sharing li {
     padding-right: 1em;
   }
-
   .content-container .sharing-icons .article-sharing .fa-twitter {
     color: #00d8ff;
   }
-
   .content-container .sharing-icons .article-sharing .fa-facebook-square {
     color: #0079ff;
   }
-
   .content-container .sharing-icons .article-sharing .fa-pinterest-p {
     color: red;
   }
-
   .content-container .text-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-bottom: 2em;
   }
-
   .content-container .text-content h2 {
-    margin: 1em;
+    margin-top: 2em;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     font-size: 1.75em !important;
     line-height: 1.5;
     letter-spacing: .13em;
     font-weight: 500;
   }
-
   .content-container .text-content h3 {
     color: #000;
     font-size: 1.25em;
@@ -215,16 +188,14 @@
     margin-top: 15px;
     text-transform: none;
   }
-
   .content-container .text-content p {
-    margin: 1em;
+    margin-top: 1.5em;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.7;
     word-spacing: .05em;
   }
-
   .content-container .text-content a {
     color: #000;
     text-decoration: none;
@@ -232,21 +203,17 @@
     border-bottom: 1px solid #fc0;
     text-decoration: none;
   }
-
   .content-container .text-content .text-3 {
     padding-right: 1em;
   }
-
   .content-container .text-content .grid-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .content-container .text-content .grid-box img {
     width: 500px;
   }
-
   .content-container .text-content .grid-box .news {
     border-left: 2px solid #999;
     padding: 0 1.5em;
@@ -254,15 +221,16 @@
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     font-size: 0.7em;
   }
-
   .content-container .text-content .grid-box .right-text {
     margin: 9em 1em;
   }
-
+  .content-container .text-content .grid-box .right-text p {
+    margin: 0;
+    padding-top: 0.5em;
+  }
   .content-container .map-img {
     margin: 6px;
   }
-
   .content-container .map-img img {
     max-width: 100%;
     height: auto;
@@ -271,12 +239,10 @@
     margin-top: 3em;
     padding: 0em 14em;
   }
-
   .content-container .map-img .bottom-text {
     margin-left: 14em;
     padding-top: 0.5em;
   }
-
   .content-container .map-img .bottom-text p {
     border-left: 2px solid #999;
     padding: 0 1.5em;
@@ -284,35 +250,31 @@
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     font-size: 0.7em;
   }
-
   .content-container .line {
     border: 0.5px solid #999;
     margin: 2em 0;
   }
-
   .content-container .box-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     background: #f5f5f5;
     padding-top: 1em;
   }
-
   .content-container .box-container .text-container {
     margin: 4em 0;
   }
-
   .content-container .box-container .text-container .box-text {
     font-size: 1.75em !important;
     font-weight: 400;
@@ -324,14 +286,18 @@
     border-left: 2px solid black !important;
     line-height: 2 !important;
   }
-
   .content-container .box-container .text-container p {
-    margin: 1em;
+    margin-top: 1.5em;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.7;
     word-spacing: .05em;
+  }
+  .content-container .more-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
