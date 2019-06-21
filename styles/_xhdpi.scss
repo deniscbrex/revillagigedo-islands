@@ -272,6 +272,100 @@
 
         .more-box {
             display: flex;
+            @include p-font;
+
+            .more-list {
+                margin: 2em;
+
+                ul {
+                    list-style: none;
+                    text-align: center;
+
+                    li {
+                        margin: 1em;
+                    }
+                }
+            }
+
+            .follow-list {
+                margin: 2em;
+                padding: 0em;
+
+                .share-items-1 {
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        margin: 1.5em;
+
+                        a {
+                            box-sizing: border-box;
+                            display: inline-block;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            background: #fff;
+                            line-height: 40px;
+
+                            i {
+                                margin-left: 0.8em;
+                            }
+
+                            .fa-twitter {
+                                color: $twitterColor;
+                            }
+
+                            .fa-facebook-f {
+                                color: $facebookColor;
+                                margin-left: 1em;
+                            }
+
+                            .fa-instagram {
+                                color: $instagramColor;
+                            }
+                        }
+
+                    }
+                }
+
+                .share-items-2 {
+                    list-style: none;
+                    display: flex;
+                    padding-left: 4em;
+
+                    li {
+                        margin: 0.5em;
+
+                        a {
+                            box-sizing: border-box;
+                            display: inline-block;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            background: #fff;
+                            line-height: 40px;
+
+                            i {
+                                margin-left: 0.8em;
+                            }
+
+                            .fa-twitter {
+                                color: $twitterColor;
+                            }
+
+                            .fa-facebook-f {
+                                color: $facebookColor;
+                                margin-left: 1em;
+                            }
+
+                            .fa-instagram {
+                                color: $instagramColor;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
