@@ -395,9 +395,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-weight: 400;
   }
   footer .footer-container .footer-logo {
-    padding: 3em;
+    padding: 3.5em;
   }
   footer .footer-container .footer-logo img {
     height: 54px;
@@ -415,10 +416,16 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 100%;
+    padding-left: 3em;
+    padding-top: 2em;
+  }
+  footer .footer-container .footer-menu h6 {
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999;
+    font-size: 12px;
+    letter-spacing: 4px;
   }
   footer .footer-container .footer-menu .menu-1 {
     padding-top: 2em;
@@ -432,14 +439,70 @@
     padding-top: 2em;
     padding-right: 5em;
   }
-  footer .footer-container .footer-menu h6 {
-    color: white;
-  }
   footer .footer-container .footer-menu ul {
-    padding: 1em;
+    list-style: none;
   }
-  footer .footer-container .footer-menu li {
-    color: white;
+  footer .footer-container .footer-menu ul li {
+    padding-bottom: 0.8em;
+  }
+  footer .footer-container .footer-menu ul li a {
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 1.7;
+    word-spacing: .05em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  footer .footer-container .footer-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 4em;
+    padding-left: 5em;
+    padding-right: 3em;
+  }
+  footer .footer-container .footer-buttons .donate-button {
+    background-color: #fc0;
+    border-color: #fc0;
+    width: 96px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    width: 235px;
+    height: 50px;
+  }
+  footer .footer-container .footer-buttons .updates-button {
+    background-color: #fc0;
+    border-color: #fc0;
+    width: 96px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    background-color: #fff;
+    border-color: #fff;
+    width: 235px;
+    height: 50px;
+    margin-top: 1.5em;
   }
 }
 

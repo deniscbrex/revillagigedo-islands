@@ -41,7 +41,21 @@ $instagramColor:#3F729b;
     word-spacing: .05em;
 }
 
-@mixin button {
+@mixin donate-btn {
+    background-color: $btnColor;
+    border-color: $btnColor;
+    width: 96px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    font-family: $textFont;
+    letter-spacing: 2px;
+}
+
+@mixin updates-btn {
     background-color: $btnColor;
     border-color: $btnColor;
     width: 96px;
@@ -74,4 +88,13 @@ $instagramColor:#3F729b;
     line-height: 1.7;
     word-spacing: .05em;
     color: #fff;
+}
+
+@mixin footer-title {
+    font-family: $textFont;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999;
+    font-size: 12px;
+    letter-spacing: 4px;
 }
