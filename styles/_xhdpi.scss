@@ -458,8 +458,57 @@
                     margin-top: 1.5em;
                 }
             }
+
+            .footer-icons {
+                padding-left: 2em;
+                padding-top: 2em;
+
+                h6 {
+                    @include footer-title;
+                    color: #fff;
+                    letter-spacing: 0.2em;
+                    font-size: 12px;
+                }
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    padding: 0.7em;
+
+                    li {
+                        padding-right: 1em;
+
+                        .fab {
+                            color: #999;
+                        }
+                    }
+                }
+
+
+            }
+
+            .footer-text {
+                display: flex;
+                width: 100%;
+                padding-top: 2.5em;
+                padding-bottom: 5em;
+                padding-left: 12em;
+
+
+                p {
+                    @include footer-font;
+                    font-size: 12px;
+                    color: #999;
+
+                    a {
+                        color: #999;
+                        cursor: pointer;
+                        text-decoration: none;
+                    }
+                }
+            }
         }
-
-
     }
+
+
 }
