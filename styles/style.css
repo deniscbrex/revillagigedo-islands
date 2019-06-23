@@ -1984,16 +1984,17 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 1.5em;
+  }
+  .content-container .more-box h3 {
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 0.8em;
+    font-weight: 600;
     line-height: 1.7;
     word-spacing: .05em;
+    padding-left: 3 em;
   }
   .content-container .more-box .more-list {
     margin: 1em;
-    padding-right: 5em;
   }
   .content-container .more-box .more-list ul {
     list-style: none;
@@ -2001,6 +2002,12 @@
   }
   .content-container .more-box .more-list ul li {
     margin: 1em;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 1.7;
+    word-spacing: .05em;
+    color: #666;
   }
   .content-container .more-box .follow-list {
     margin: 1em;
@@ -2086,9 +2093,23 @@
         -ms-flex-direction: column;
             flex-direction: column;
     font-weight: 400;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   footer .footer-container .footer-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 1.5em;
+    margin-top: 2em;
   }
   footer .footer-container .footer-logo img {
     height: 54px;
@@ -2096,17 +2117,26 @@
   }
   footer .footer-container .footer-logo p {
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 400;
     line-height: 1.7;
     word-spacing: .05em;
     color: #fff;
+    padding-top: 1em;
+    padding-left: 1em;
   }
   footer .footer-container .footer-menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 2em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
   }
   footer .footer-container .footer-menu h6 {
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
@@ -2146,7 +2176,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-top: 2.5em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   footer .footer-container .footer-buttons .donate-button {
     background-color: #fc0;
@@ -2182,7 +2214,6 @@
     margin-top: 1.5em;
   }
   footer .footer-container .footer-icons {
-    padding-left: 2em;
     padding-top: 2em;
   }
   footer .footer-container .footer-icons h6 {
@@ -2195,13 +2226,14 @@
     color: #fff;
     letter-spacing: 0.2em;
     font-size: 12px;
+    text-align: center;
   }
   footer .footer-container .footer-icons ul {
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0.7em;
+    padding-top: 0.5em;
   }
   footer .footer-container .footer-icons ul li {
     padding-right: 1em;
@@ -2214,8 +2246,8 @@
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    padding-top: 2.5em;
-    padding-bottom: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
   footer .footer-container .footer-text p {
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
@@ -2226,7 +2258,8 @@
     color: #fff;
     font-size: 9px;
     color: #999;
-    padding-left: 1em;
+    padding: 1em;
+    text-align: center;
   }
   footer .footer-container .footer-text p a {
     color: #999;

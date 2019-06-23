@@ -337,11 +337,21 @@
         .more-box {
             display: flex;
             flex-direction: column;
-            @include p-font;
+
+            h3 {
+                font-family: GeographWeb,
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                font-size: 0.8em;
+                font-weight: 600;
+                line-height: 1.7;
+                word-spacing: .05em;
+                padding-left: 3 em;
+            }
 
             .more-list {
                 margin: 1em;
-                padding-right: 5em;
 
                 ul {
                     list-style: none;
@@ -349,6 +359,15 @@
 
                     li {
                         margin: 1em;
+                        font-family: GeographWeb,
+                            Helvetica,
+                            Arial,
+                            sans-serif;
+                        font-size: 0.8em;
+                        font-weight: 600;
+                        line-height: 1.7;
+                        word-spacing: .05em;
+                        color: #666;
                     }
                 }
             }
@@ -442,10 +461,14 @@
             display: flex;
             flex-direction: column;
             font-weight: 400;
+            align-items: center;
 
             .footer-logo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 padding: 1.5em;
-
+                margin-top: 2em;
 
                 img {
                     height: 54px;
@@ -453,13 +476,25 @@
                 }
 
                 p {
-                    @include footer-font;
+                    font-family: GeographWeb,
+                        Helvetica,
+                        Arial,
+                        sans-serif;
+                    font-size: 0.7em;
+                    font-weight: 400;
+                    line-height: 1.7;
+                    word-spacing: .05em;
+                    color: #fff;
+                    padding-top: 1em;
+                    padding-left: 1em;
                 }
             }
 
             .footer-menu {
                 display: flex;
-                padding-top: 2em;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
 
                 h6 {
                     @include footer-title;
@@ -491,7 +526,7 @@
             .footer-buttons {
                 display: flex;
                 flex-direction: column;
-                padding-top: 2.5em;
+                align-items: center;
 
                 .donate-button {
                     @include donate-btn;
@@ -510,7 +545,6 @@
             }
 
             .footer-icons {
-                padding-left: 2em;
                 padding-top: 2em;
 
                 h6 {
@@ -518,12 +552,13 @@
                     color: #fff;
                     letter-spacing: 0.2em;
                     font-size: 12px;
+                    text-align: center;
                 }
 
                 ul {
                     list-style: none;
                     display: flex;
-                    padding: 0.7em;
+                    padding-top: 0.5em;
 
                     li {
                         padding-right: 1em;
@@ -540,14 +575,15 @@
             .footer-text {
                 display: flex;
                 width: 100%;
-                padding-top: 2.5em;
-                padding-bottom: 5em;
+                padding-top: 1em;
+                padding-bottom: 1em;
 
                 p {
                     @include footer-font;
                     font-size: 9px;
                     color: #999;
-                    padding-left: 1em;
+                    padding: 1em;
+                    text-align: center;
 
                     a {
                         color: #999;
