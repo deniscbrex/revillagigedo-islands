@@ -1849,14 +1849,11 @@
     font-size: 1em;
   }
   .content-container .text-content h3 {
-    color: #000;
-    font-size: 1.25em;
     line-height: 1.8;
     font-weight: 400;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     letter-spacing: -0.01em;
     word-spacing: .05em;
-    margin-top: 15px;
     text-transform: none;
     font-size: 0.9em;
     padding: 1em;
@@ -1891,21 +1888,30 @@
             flex-direction: column;
   }
   .content-container .text-content .grid-box img {
-    width: 100%;
+    width: 270px;
+    padding-left: 1em;
+    padding-top: 0.5em;
   }
   .content-container .text-content .grid-box .news {
     border-left: 2px solid #999;
-    padding: 0 1.5em;
+    padding: 0 0.5em;
+    margin-left: 2em;
     color: #999;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
   .content-container .text-content .grid-box .right-text {
-    margin: 8em 1em;
+    margin: 0.4em 1em;
   }
   .content-container .text-content .grid-box .right-text p {
-    margin: 0;
+    font-family: GeographWeb, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    word-spacing: .05em;
+    font-size: 0.8em;
+    padding: 0;
     padding-top: 0.5em;
+    margin-top: 0;
   }
   .content-container .map-img {
     margin: 6px;
