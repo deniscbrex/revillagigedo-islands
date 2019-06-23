@@ -1839,15 +1839,14 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-bottom: 2em;
   }
   .content-container .text-content h2 {
-    margin-top: 2em;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
-    font-size: 1.75em !important;
     line-height: 1.5;
     letter-spacing: .13em;
     font-weight: 500;
+    margin-top: 0.5em;
+    font-size: 1em;
   }
   .content-container .text-content h3 {
     color: #000;
@@ -1859,14 +1858,18 @@
     word-spacing: .05em;
     margin-top: 15px;
     text-transform: none;
+    font-size: 0.9em;
+    padding: 1em;
   }
   .content-container .text-content p {
     margin-top: 1.5em;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
-    font-size: 1em;
     font-weight: 400;
     line-height: 1.7;
     word-spacing: .05em;
+    font-size: 0.8em;
+    padding: 1em;
+    margin-top: 0;
   }
   .content-container .text-content a {
     color: #000;
@@ -1887,12 +1890,8 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .content-container .text-content .grid-box .img-box {
-    padding-left: 1em;
-    padding-top: 1em;
-  }
   .content-container .text-content .grid-box img {
-    width: 200px;
+    width: 100%;
   }
   .content-container .text-content .grid-box .news {
     border-left: 2px solid #999;
@@ -1916,23 +1915,22 @@
     height: auto;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 3em;
-    padding: 0em 7em;
+    padding: 0.5em;
   }
   .content-container .map-img .bottom-text {
-    margin-left: 7em;
-    padding-top: 0.5em;
+    padding-left: 0.5em;
   }
   .content-container .map-img .bottom-text p {
     border-left: 2px solid #999;
-    padding: 0 1.5em;
+    padding: 0 0.5em;
     color: #999;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
     font-size: 0.7em;
+    word-spacing: .05em;
   }
   .content-container .line {
     border: 0.5px solid #999;
-    margin: 2em 0;
+    margin-top: 1em;
   }
   .content-container .box-container {
     display: -webkit-box;
@@ -1950,26 +1948,24 @@
             align-items: center;
     width: 100%;
     background: #f5f5f5;
-    padding-top: 1em;
   }
   .content-container .box-container .text-container {
-    margin: 4em 0;
+    padding: 1em;
   }
   .content-container .box-container .text-container .box-text {
-    font-size: 1.75em !important;
+    font-size: 1em !important;
     font-weight: 400;
-    margin-bottom: 50px;
-    margin-top: 40px;
-    padding-left: 35px;
+    margin-top: 1em;
+    padding-left: 1em;
     letter-spacing: 0.12em !important;
     word-spacing: 0.05em !important;
     border-left: 2px solid black !important;
     line-height: 2 !important;
   }
   .content-container .box-container .text-container p {
-    margin-top: 1.5em;
+    margin: 0.7em;
     font-family: GeographWeb, Helvetica, Arial, sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 400;
     line-height: 1.7;
     word-spacing: .05em;

@@ -170,18 +170,37 @@
             justify-content: center;
             flex-direction: column;
             align-items: center;
-            padding-bottom: 2em;
 
             h2 {
-                @include h2-font;
+                font-family: GeographWeb,
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                line-height: 1.5;
+                letter-spacing: .13em;
+                font-weight: 500;
+                margin-top: 0.5em;
+                font-size: 1em;
             }
 
             h3 {
                 @include h3-font;
+                font-size: 0.9em;
+                padding: 1em;
             }
 
             p {
-                @include p-font;
+                margin-top: 1.5em;
+                font-family: GeographWeb,
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                font-weight: 400;
+                line-height: 1.7;
+                word-spacing: .05em;
+                font-size: 0.8em;
+                padding: 1em;
+                margin-top: 0;
             }
 
             a {
@@ -200,13 +219,10 @@
                 display: flex;
                 flex-direction: column;
 
-                .img-box {
-                    padding-left: 1em;
-                    padding-top: 1em;
-                }
+                .img-box {}
 
                 img {
-                    width: 200px;
+                    width: 100%;
                 }
 
                 .news {
@@ -236,27 +252,26 @@
                 height: auto;
                 -webkit-box-sizing: border-box;
                 box-sizing: border-box;
-                margin-top: 3em;
-                padding: 0em 7em;
+                padding: 0.5em;
             }
 
             .bottom-text {
-                margin-left: 7em;
-                padding-top: 0.5em;
+                padding-left: 0.5em;
 
                 p {
                     border-left: 2px solid #999;
-                    padding: 0 1.5em;
+                    padding: 0 0.5em;
                     color: #999;
                     font-family: $textFont;
                     font-size: 0.7em;
+                    word-spacing: .05em;
                 }
             }
         }
 
         .line {
             border: 0.5px solid #999;
-            margin: 2em 0;
+            margin-top: 1em;
         }
 
         .box-container {
@@ -266,17 +281,32 @@
             align-items: center;
             width: 100%;
             background: #f5f5f5;
-            padding-top: 1em;
 
             .text-container {
-                margin: 4em 0;
+
+                padding: 1em;
 
                 .box-text {
-                    @include box-title;
+                    font-size: 1em !important;
+                    font-weight: 400;
+                    margin-top: 1em;
+                    padding-left: 1em;
+                    letter-spacing: 0.12em !important;
+                    word-spacing: 0.05em !important;
+                    border-left: 2px solid black !important;
+                    line-height: 2 !important;
                 }
 
                 p {
-                    @include p-font;
+                    margin: 0.7em;
+                    font-family: GeographWeb,
+                        Helvetica,
+                        Arial,
+                        sans-serif;
+                    font-size: 0.9em;
+                    font-weight: 400;
+                    line-height: 1.7;
+                    word-spacing: .05em;
                 }
             }
 
