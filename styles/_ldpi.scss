@@ -37,16 +37,15 @@
             margin: 0;
             left: 50%;
             z-index: 1;
-            width: 768px;
+            width: 639px;
             padding: 1em 0;
 
             .menu-list {
-                display: flex;
-                list-style: none;
+                display: none;
 
                 li {
                     padding: 0 2em;
-                    font-size: 15px;
+                    font-size: 12px;
                     font-weight: 550;
                     color: black;
                     font-family: $textFont;
@@ -60,13 +59,15 @@
             display: block !important;
             background: transparent;
             margin: 0;
-            left: 80%;
+            left: 54%;
             z-index: 1;
             width: 768px;
-            padding: 0.5em 4.5em;
 
             .donate-button {
                 @include donate-btn;
+                width: 78px;
+                height: 33px;
+
             }
 
             .user {
@@ -75,8 +76,12 @@
                 margin: 0;
                 padding: 0;
 
+                li {
+                    padding-top: 0.5em;
+                }
+
                 .account {
-                    padding: 0 1.5em;
+                    padding: 0.5em 0.5em;
                 }
 
                 a {
@@ -95,45 +100,48 @@
     }
 
     .content-container {
-        margin-top: 7em;
+        margin-top: 5em;
 
         .article-heading {
-            width: 90%;
+            width: 100%;
             height: 100%;
-            margin: 0 120px;
 
-            h5 {
-                font-weight: 600;
-                font-size: 0.8125em;
-                letter-spacing: 0.1625em;
-                line-height: 1rem;
-                font-family: $textFont;
-            }
+            .header {
+                padding: 1em;
 
-            h1 {
-                font-size: 3.75em;
-                font-weight: 400;
-                line-height: 1.2;
-                margin: 0.2em 0;
-                letter-spacing: 0.1em;
-                font-family: $textFont;
-            }
 
-            h2 {
-                color: #000;
-                font-size: $textSize;
-                line-height: 1.8;
-                font-weight: 400;
-                font-family: $textFont;
-                letter-spacing: -0.01em;
-                word-spacing: 0.05em;
-                margin: 1em;
-                text-transform: none;
+                h5 {
+                    font-weight: 600;
+                    font-size: 0.5em;
+                    letter-spacing: 0.1625em;
+                    line-height: 1rem;
+                    font-family: $textFont;
+                }
+
+                h1 {
+                    font-size: 1.4em;
+                    font-weight: 400;
+                    line-height: 1.2;
+                    margin: 0.2em 0;
+                    letter-spacing: 0.1em;
+                    font-family: $textFont;
+                }
+
+                h2 {
+                    color: #000;
+                    font-size: 0.78em;
+                    line-height: 1.8;
+                    font-weight: 400;
+                    font-family: $textFont;
+                    letter-spacing: -0.01em;
+                    word-spacing: 0.05em;
+                    text-transform: none;
+                }
             }
         }
 
         .sharing-icons {
-            padding: 2em 0;
+            padding: 1em 1em;
 
             .article-sharing {
                 list-style: none;
@@ -190,9 +198,15 @@
 
             .grid-box {
                 display: flex;
+                flex-direction: column;
+
+                .img-box {
+                    padding-left: 1em;
+                    padding-top: 1em;
+                }
 
                 img {
-                    width: 500px;
+                    width: 200px;
                 }
 
                 .news {
@@ -204,7 +218,7 @@
                 }
 
                 .right-text {
-                    margin: 9em 1em;
+                    margin: 8em 1em;
 
                     p {
                         margin: 0;
@@ -223,11 +237,11 @@
                 -webkit-box-sizing: border-box;
                 box-sizing: border-box;
                 margin-top: 3em;
-                padding: 0em 14em;
+                padding: 0em 7em;
             }
 
             .bottom-text {
-                margin-left: 14em;
+                margin-left: 7em;
                 padding-top: 0.5em;
 
                 p {
@@ -270,6 +284,7 @@
 
         .more-box {
             display: flex;
+            flex-direction: column;
             @include p-font;
 
             .more-list {
@@ -373,10 +388,11 @@
 
         .footer-container {
             display: flex;
+            flex-direction: column;
             font-weight: 400;
 
             .footer-logo {
-                padding: 3.5em;
+                padding: 1.5em;
 
 
                 img {
@@ -391,26 +407,11 @@
 
             .footer-menu {
                 display: flex;
-                padding-left: 3em;
                 padding-top: 2em;
 
                 h6 {
                     @include footer-title;
-                }
-
-                .menu-1 {
-                    padding-top: 2em;
-                    padding-right: 5em;
-                }
-
-                .menu-2 {
-                    padding-top: 2em;
-                    padding-right: 5em;
-                }
-
-                .menu-3 {
-                    padding-top: 2em;
-                    padding-right: 5em;
+                    font-size: 9px;
                 }
 
                 ul {
@@ -421,8 +422,9 @@
 
                         a {
                             @include footer-font;
+                            font-size: 0.6em;
                             margin: 0;
-                            padding: 0;
+                            padding-right: 2em;
                             display: inline-block;
                             color: #fff;
                             cursor: pointer;
@@ -437,22 +439,20 @@
             .footer-buttons {
                 display: flex;
                 flex-direction: column;
-                padding-top: 4em;
-                padding-left: 5em;
-                padding-right: 3em;
+                padding-top: 2.5em;
 
                 .donate-button {
                     @include donate-btn;
-                    width: 235px;
-                    height: 50px;
+                    width: 110px;
+                    height: 30px;
                 }
 
                 .updates-button {
                     @include updates-btn;
                     background-color: #fff;
                     border-color: #fff;
-                    width: 235px;
-                    height: 50px;
+                    width: 110px;
+                    height: 34px;
                     margin-top: 1.5em;
                 }
             }
@@ -490,13 +490,12 @@
                 width: 100%;
                 padding-top: 2.5em;
                 padding-bottom: 5em;
-                padding-left: 12em;
-
 
                 p {
                     @include footer-font;
-                    font-size: 12px;
+                    font-size: 9px;
                     color: #999;
+                    padding-left: 1em;
 
                     a {
                         color: #999;
