@@ -1,5 +1,5 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   * {
     margin: 0;
     padding: 0;
@@ -559,7 +559,7 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1088px) {
   * {
     margin: 0;
     padding: 0;
@@ -1116,7 +1116,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (max-width: 1030px) {
   * {
     margin: 0;
     padding: 0;
@@ -1669,7 +1669,7 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
