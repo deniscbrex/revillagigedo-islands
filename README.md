@@ -8,4 +8,4 @@ A clone of national geographics website of revillagigedo islands expeditions
 
 ## Live Demos
 
-https://raw.githack.com/NeerNim/nyt-article-clone/development/index.html
+https://raw.githack.com/DenisCuencaBrex/revillagigedo-islands/master/index.html
