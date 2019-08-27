@@ -1,5 +1,5 @@
-/* Medium devices (landscape tablets, 768px and up) */
-@media screen and (max-width: 1030px) {
+/* Small devices (landscape tablets, 769px and up) */
+@media screen and (min-width: 600px) {
     * {
         margin: 0;
         padding: 0;
@@ -67,7 +67,6 @@
                 @include donate-btn;
                 width: 78px;
                 height: 33px;
-
             }
 
             .user {
@@ -275,7 +274,6 @@
                     @include p-font;
                 }
             }
-
         }
 
         .more-box {
@@ -334,7 +332,6 @@
                                 color: $instagramColor;
                             }
                         }
-
                     }
                 }
 
@@ -388,7 +385,6 @@
             .footer-logo {
                 padding: 1.5em;
 
-
                 img {
                     height: 54px;
                     width: 170px;
@@ -426,8 +422,6 @@
                         }
                     }
                 }
-
-
             }
 
             .footer-buttons {
@@ -475,8 +469,6 @@
                         }
                     }
                 }
-
-
             }
 
             .footer-text {
@@ -485,7 +477,6 @@
                 padding-top: 2.5em;
                 padding-bottom: 5em;
                 padding-left: 3em;
-
 
                 p {
                     @include footer-font;
@@ -502,6 +493,4 @@
             }
         }
     }
-
-
 }

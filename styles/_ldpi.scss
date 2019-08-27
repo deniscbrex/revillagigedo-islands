@@ -1,5 +1,6 @@
+@import "./variables";
 /* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     * {
         margin: 0;
         padding: 0;
@@ -67,7 +68,6 @@
                 @include donate-btn;
                 width: 78px;
                 height: 33px;
-
             }
 
             .user {
@@ -108,7 +108,6 @@
 
             .header {
                 padding: 1em;
-
 
                 h5 {
                     font-weight: 600;
@@ -172,12 +171,9 @@
             align-items: center;
 
             h2 {
-                font-family: GeographWeb,
-                    Helvetica,
-                    Arial,
-                    sans-serif;
+                font-family: GeographWeb, Helvetica, Arial, sans-serif;
                 line-height: 1.5;
-                letter-spacing: .13em;
+                letter-spacing: 0.13em;
                 font-weight: 500;
                 margin-top: 0.5em;
                 font-size: 1em;
@@ -186,12 +182,9 @@
             h3 {
                 line-height: 1.8;
                 font-weight: 400;
-                font-family: GeographWeb,
-                    Helvetica,
-                    Arial,
-                    sans-serif;
+                font-family: GeographWeb, Helvetica, Arial, sans-serif;
                 letter-spacing: -0.01em;
-                word-spacing: .05em;
+                word-spacing: 0.05em;
                 text-transform: none;
                 font-size: 0.9em;
                 padding: 1em;
@@ -199,13 +192,10 @@
 
             p {
                 margin-top: 1.5em;
-                font-family: GeographWeb,
-                    Helvetica,
-                    Arial,
-                    sans-serif;
+                font-family: GeographWeb, Helvetica, Arial, sans-serif;
                 font-weight: 400;
                 line-height: 1.7;
-                word-spacing: .05em;
+                word-spacing: 0.05em;
                 font-size: 0.8em;
                 padding: 1em;
                 margin-top: 0;
@@ -238,25 +228,18 @@
                     padding: 0 0.5em;
                     margin-left: 2em;
                     color: #999;
-                    font-family: GeographWeb,
-                        Helvetica,
-                        Arial,
-                        sans-serif;
+                    font-family: GeographWeb, Helvetica, Arial, sans-serif;
                     font-size: 0.5em;
-
                 }
 
                 .right-text {
                     margin: 0.4em 1em;
 
                     p {
-                        font-family: GeographWeb,
-                            Helvetica,
-                            Arial,
-                            sans-serif;
+                        font-family: GeographWeb, Helvetica, Arial, sans-serif;
                         font-weight: 400;
                         line-height: 1.7;
-                        word-spacing: .05em;
+                        word-spacing: 0.05em;
                         font-size: 0.8em;
                         padding: 0;
                         padding-top: 0.5em;
@@ -286,7 +269,7 @@
                     color: #999;
                     font-family: $textFont;
                     font-size: 0.7em;
-                    word-spacing: .05em;
+                    word-spacing: 0.05em;
                 }
             }
         }
@@ -305,7 +288,6 @@
             background: #f5f5f5;
 
             .text-container {
-
                 padding: 1em;
 
                 .box-text {
@@ -321,17 +303,13 @@
 
                 p {
                     margin: 0.7em;
-                    font-family: GeographWeb,
-                        Helvetica,
-                        Arial,
-                        sans-serif;
+                    font-family: GeographWeb, Helvetica, Arial, sans-serif;
                     font-size: 0.9em;
                     font-weight: 400;
                     line-height: 1.7;
-                    word-spacing: .05em;
+                    word-spacing: 0.05em;
                 }
             }
-
         }
 
         .more-box {
@@ -339,15 +317,11 @@
             flex-direction: column;
 
             h3 {
-                font-family: GeographWeb,
-                    Helvetica,
-                    Arial,
-                    sans-serif;
+                font-family: GeographWeb, Helvetica, Arial, sans-serif;
                 font-size: 0.8em;
                 font-weight: 600;
                 line-height: 1.7;
-                word-spacing: .05em;
-                padding-left: 3 em;
+                word-spacing: 0.05em;
             }
 
             .more-list {
@@ -359,14 +333,11 @@
 
                     li {
                         margin: 1em;
-                        font-family: GeographWeb,
-                            Helvetica,
-                            Arial,
-                            sans-serif;
+                        font-family: GeographWeb, Helvetica, Arial, sans-serif;
                         font-size: 0.8em;
                         font-weight: 600;
                         line-height: 1.7;
-                        word-spacing: .05em;
+                        word-spacing: 0.05em;
                         color: #666;
                     }
                 }
@@ -410,7 +381,6 @@
                                 color: $instagramColor;
                             }
                         }
-
                     }
                 }
 
@@ -476,14 +446,11 @@
                 }
 
                 p {
-                    font-family: GeographWeb,
-                        Helvetica,
-                        Arial,
-                        sans-serif;
+                    font-family: GeographWeb, Helvetica, Arial, sans-serif;
                     font-size: 0.7em;
                     font-weight: 400;
                     line-height: 1.7;
-                    word-spacing: .05em;
+                    word-spacing: 0.05em;
                     color: #fff;
                     padding-top: 1em;
                     padding-left: 1em;
@@ -519,8 +486,6 @@
                         }
                     }
                 }
-
-
             }
 
             .footer-buttons {
@@ -568,8 +533,6 @@
                         }
                     }
                 }
-
-
             }
 
             .footer-text {
@@ -594,6 +557,4 @@
             }
         }
     }
-
-
 }

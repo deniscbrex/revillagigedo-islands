@@ -1,5 +1,5 @@
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (min-width: 1088px) {
+/* Medium devices (small laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
     * {
         margin: 0;
         padding: 0;
@@ -265,7 +265,6 @@
                     @include p-font;
                 }
             }
-
         }
 
         .more-box {
@@ -324,7 +323,6 @@
                                 color: $instagramColor;
                             }
                         }
-
                     }
                 }
 
@@ -378,7 +376,6 @@
             .footer-logo {
                 padding: 3.5em;
 
-
                 img {
                     height: 54px;
                     width: 170px;
@@ -429,8 +426,6 @@
                         }
                     }
                 }
-
-
             }
 
             .footer-buttons {
@@ -478,8 +473,6 @@
                         }
                     }
                 }
-
-
             }
 
             .footer-text {
@@ -488,7 +481,6 @@
                 padding-top: 2.5em;
                 padding-bottom: 5em;
                 padding-left: 3em;
-
 
                 p {
                     @include footer-font;
@@ -504,6 +496,4 @@
             }
         }
     }
-
-
 }
