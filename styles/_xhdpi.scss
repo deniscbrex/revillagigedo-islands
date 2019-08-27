@@ -1,7 +1,7 @@
 @import "./variables";
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
+/*Large devices(large laptops/desktops, 1440px and up)*/
+@media screen and (min-width: 1440px) {
     * {
         margin: 0;
         padding: 0;
@@ -267,7 +267,6 @@
                     @include p-font;
                 }
             }
-
         }
 
         .more-box {
@@ -326,7 +325,6 @@
                                 color: $instagramColor;
                             }
                         }
-
                     }
                 }
 
@@ -380,7 +378,6 @@
             .footer-logo {
                 padding: 3.5em;
 
-
                 img {
                     height: 54px;
                     width: 170px;
@@ -432,8 +429,6 @@
                         }
                     }
                 }
-
-
             }
 
             .footer-buttons {
@@ -483,8 +478,6 @@
                         }
                     }
                 }
-
-
             }
 
             .footer-text {
@@ -493,7 +486,6 @@
                 padding-top: 2.5em;
                 padding-bottom: 5em;
                 padding-left: 12em;
-
 
                 p {
                     @include footer-font;
@@ -509,6 +501,4 @@
             }
         }
     }
-
-
 }
